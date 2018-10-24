@@ -84,6 +84,7 @@ export default class RNSlidingButton extends Component {
                         released: false,
                         dx: self.state.initialX
                     });
+                    self.onSlide(self.state.initialX)
                 });
             },
 
